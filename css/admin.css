@@ -1,0 +1,57 @@
+#page {
+  display: grid;
+  width: 100%;
+  height:100%;
+  grid-template: 
+                 [main-left]   "main  main" 100fr  [main-right]
+                 [footer-left] " foot foot" 30px [footer-right]
+                 / 120px 1fr;
+}
+     .lu {
+    list-style-type: none;
+    margin: 10px;
+    padding: 50px;
+    overflow: hidden;
+ 
+}
+
+.mylist{
+    float: left;
+    border:2px solid black;
+    margin:5px;
+}
+
+.mylist a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.mylist a:hover {
+    background-color: #111;
+}
+
+main {
+  background-color:#a6e1ec;
+  grid-area: main;
+  margin:0px;
+  border:2px solid royalblue;
+  
+}
+
+
+
+.footer{
+    border: 1px solid black;
+    background:blue;
+    padding:30px;
+   
+}
+#form2 button{
+    width:200px;
+ 
+    margin:10px;
+    
+}

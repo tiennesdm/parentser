@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    
+}
+body{
+    background: #C4C4C4;
+}
+#header_wrapper{
+    width: 100%;
+    height: 100px;
+    border:5px solid brown;
+    background: #1E90FF;
+    padding: 10px;
+}
+#header{
+    width:1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+#form1{
+    float: right;
+    line-height: 100px;
+    
+}
+#form1 input{
+    width:150px;
+    height:10px;
+    padding:10px;
+}
+#form1 button{
+    width:70px;
+    padding:7px;
+    
+}
+#form1 button:hover{
+    color:white;
+    background:blue;
+}
+#content{
+
+    margin: 0 auto;
+    
+}
+#form2{
+    float: right;
+    margin-top:10px;
+   margin-right:60px;
+    
+}
+#form2 input{
+    width: 250px;
+    height: 30px;
+    padding:10px;
+    border: 1px solid blueviolet;
+    clear: both;
+    background:#1E90FF;
+}
+#form2 textarea{
+    width: 250px;
+    height: 60px;
+    padding:10px;
+    border: 1px solid blueviolet;
+    clear: both;
+    background:#1E90FF; 
+}
+#form2 button{
+    width: 275px;
+    height: 30px;
+     padding:5px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-size:15px;
+       
+    
+}
+#form2 h2{
+    padding: 20px;
+    margin-left: 50px;
+    font-family:cursive; 
+}
+.footer h2{
+    padding: 20px;
+  
+   
+    color:white;
+    
+}
+.footer{
+    width:100%;
+    height: 50px;
+    padding:10px;
+   
+    border:2px solid appworkspace;
+    clear: both;
+    background:#1E90FF;
+   
+    
+}
+*{
+    font-family: 'Amaranth', sans-serif;
+}

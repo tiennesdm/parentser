@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #f6f6f6;
+    background: linear-gradient(to bottom,#f5f6f6 0%,#C4C4C4 100%) fixed;
+    border-top:3px solid pink;
+    
+}
+#wrapper{
+    width:100%;
+    display: -webkit-box;
+     -webkit-box-pack : center;
+     -webkit-box-orient:horizontal;
+}
+#header{
+    font-family: 'tangerine' ,serif;
+    font-weight:900%;
+    text-align: center;
+    margin-top: 70px;
+    color: #069;
+    text-shadow:(0,0,0,0.4)4px 4px 4px 4px;
+    font-size: 35px;
+        
+}
+.text{
+    color:aqua;
+    text-align: center;
+    font-size: 40px;
+}
+div.box{
+    height: 200px;
+    width:200px;
+    margin-right: 7px;
+    border-radius: 100px;
+    border:5px solid #fff;
+   overflow: hidden;
+     box-shadow:(0,0,0,0.4) 2px 2px 2px 2px;
+     position: relative;
+}
+img{
+   border-radius: 100px;
+}
+div.box div{
+    width:200px;
+    height: 105px;
+    background: #000;
+    text-align: center;
+    padding: 95px 0 0 0;
+    color:white;
+}
+div.effect1 div{
+    position:absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 700ms;
+    color: white;
+    
+}
+div.effect1 div:hover{
+    opacity: 0.8;
+}
+
+div.effect3 div{
+    position:absolute;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    margin-left: 200px;
+    transition:margin-left 800ms;
+    color: white;
+    
+}
+div.effect3:hover div{
+    margin-left:0;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    margin-top: 200px;
+}
+*{
+    font-family: 'Caveat', cursive;
+}
